@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import Button from '../components/Button'
+import banner from "../assets/paddy1.png";
 import { ArrowRight, BarChart2, Leaf, Cloud, Thermometer } from 'lucide-react'
 
 const Home: React.FC = () => {
@@ -11,7 +12,7 @@ const Home: React.FC = () => {
         className="relative h-[80vh] flex items-center justify-center text-center overflow-hidden rounded-b-2xl shadow-2xl"
         style={{
           backgroundImage:
-            'url(https://images.pexels.com/photos/1001682/pexels-photo-1001682.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)',
+            `url(${banner})`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}
